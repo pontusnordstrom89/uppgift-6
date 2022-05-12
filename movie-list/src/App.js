@@ -7,7 +7,7 @@ function App() {
     <div className = "container">
       <h1>Min filmlista</h1>
 
-       <MovieApplication/>
+      <MovieApplication />
     </div>
   );
 }
