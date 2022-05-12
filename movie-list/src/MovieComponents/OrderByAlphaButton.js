@@ -4,6 +4,7 @@ import React from 'react'
  * 
  * Button to order movies in alphabetical order
  * 
+ * 
  */
 export default function OrderByAlphaButton(props) {
 
@@ -23,6 +24,6 @@ export default function OrderByAlphaButton(props) {
     props.setMovie(Array.from(sortedMovies))
   }
   return (
-    <button type="button" className="btn btn-primary" onClick={() => { sortMovies() }}>Sortera efter alfabetiskt</button>
+    <button type="button" className="btn btn-primary" onClick={() => { sortMovies() }}>Sortera efter alfabetiskt ordning</button>
   )
 }
